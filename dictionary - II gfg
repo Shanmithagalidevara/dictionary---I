@@ -1,0 +1,5 @@
+def pair_sum(dict, N, arr, sum):
+    for i in arr:
+        if(sum-i)in dict and (sum-i != i):
+            return True
+    return False
